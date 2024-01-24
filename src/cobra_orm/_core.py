@@ -359,7 +359,7 @@ class ModelMeta(ABCMeta):
 )
 class Model(metaclass=ModelMeta):
     """Base model class. All models inherit from it.
-    The class object represents table.
+    The class object represents a table.
     An instance represents a row from the table."""
 
     __tablename__: str
