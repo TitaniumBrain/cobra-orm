@@ -322,7 +322,7 @@ class ModelMeta(ABCMeta):
         if not any((isinstance(b, ModelMeta) for b in bases)):
             return super().__new__(cls, clsname, bases, attrs)
 
-        # Inject tablename into Model
+        # Inject table name into Model
         tablename = kwargs.pop("name", clsname)
         attrs["__tablename__"] = tablename
 
