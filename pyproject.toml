@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "cobra-orm"
-version = "0.1.0"
+version = "0.1.1"
 description = "A simple asynchronous ORM for aiosqlite with extensive type hinting."
 authors = ["TitaniumBrain <titaniumbrain@vivaldi.net>"]
 readme = "README.md"
