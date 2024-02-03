@@ -5,6 +5,7 @@ description = "A simple asynchronous ORM for aiosqlite with extensive type hinti
 authors = ["TitaniumBrain <titaniumbrain@vivaldi.net>"]
 readme = "README.md"
 packages = [{include = "cobra_orm", from = "src"}]
+repository = "https://github.com/TitaniumBrain/cobra-orm"
 
 [tool.poetry.dependencies]
 python = "^3.11"
